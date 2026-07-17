@@ -1,0 +1,18 @@
+# Ignore everything
+/*
+
+# Keep the .gitignore itself
+!.gitignore
+!pubspec.yaml
+
+# Keep the lib directory
+!/lib/
+!/lib/**
+
+
+# But ignore firebase_options.dart
+/lib/firebase_options.dart
+
+# Keep the integration_tests directory
+!/integration_test/
+!/integration_test/**

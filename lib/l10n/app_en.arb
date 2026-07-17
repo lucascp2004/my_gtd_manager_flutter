@@ -1,0 +1,688 @@
+{
+    
+    "newItem": "New Item",
+    "@newList":{
+      "description": "New Item radiobutton"
+    },
+    "newFolder": "New Folder",
+    "@newFolder":{
+      "description": "New Folder radiobutton"
+    },
+    "save": "Save",
+    "@save":{
+      "description": "Save button"
+    },
+    "cancel": "Cancel",
+    "@cancel":{
+      "description": "Cancel button"
+    },
+    "del": "Delete",
+    "@del":{
+      "description": "Delete button"
+    },
+    "emptyName": "Empty name",
+    "@emptyName":{
+      "description": "Empty name error"
+    },
+    "emptyError": "This field should not be empty",
+    "@emptyName":{
+      "description": "Generic error message for a text field that can't be empty"
+    },
+    "myLists": "My Lists",
+    "@myLists":{
+      "description": "My Lists label"
+    },
+    "onlyFav": "Only fav",
+    "@onlyFav":{
+      "description": "Only fav checkbutton"
+    },
+    "showAll": "Show all",
+    "@showAll":{
+      "description": "Show all checkbutton"
+    },
+    "listName": "List name",
+    "@listName":{
+      "description": "List name label"
+    },
+
+    "newListName": "New List name",
+    "@newListName":{
+      "description": "New List name label"
+    },
+    "projectName": "Project name",
+    "@listName":{
+      "description": "Project name label"
+    },
+    
+    "newProjectName": "New Project name",
+    "@newProjectName":{
+      "description": "New Project name label"
+    },
+    "folderName": "Folder name",
+    "@folderName":{
+      "description": "Folder name label"
+    },
+    "newFolderName": "New folder name",
+    "@newFolderName":{
+      "description": "New folder name label"
+    },
+    "itemName": "Item name",
+    "@itemName":{
+      "description": "Item name label"
+    },
+    "newItemName": "New item name",
+    "@newItemName":{
+      "description": "New item name label"
+    },
+    "taskPagetoolTip":"New task",
+    "@taskPagetoolTip":{
+      "description": "tooltip for a floating button that create a new task"
+    },
+    "listPagetoolTip":"New element",
+    "@listPagetoolTip":{
+      "description": "tooltip for a floating button that create a new element in a project"
+    },
+    "todoPagetoolTip":"New item",
+    "@todoPagetoolTip":{
+      "description": "tooltip for a floating button that create a new element in a project"
+    },
+    "listsPageTooltip": "New list",
+    "@listspageTooltip":{
+      "description": "tooltip for a floating button that create a new list"
+    },
+    "newElementHint": "Type a item or folder here",
+    "@newElementHint":{
+      "description": "hint to insert a new Element"
+    },
+    "emailHint": "Type your email here",
+    "@emailHint":{
+      "description": "hint to insert a new email"
+    },
+    "passwordHint": "Type your password here",
+    "@passwordHint":{
+      "description": "hint to insert a new password"
+    },
+    "logIn": "Log in",
+    "@logIn":{
+      "description": "Log in button"
+    },
+    "ok": "OK",
+    "@signUp":{
+      "description": "ok Label"
+    },
+    "signUp": "Sign up",
+    "@signUp":{
+      "description": "Sign up button"
+    },
+    "email":"Email",
+    "@email":{
+      "description": "email label"
+    },
+    "password":"Password",
+    "@password":{
+      "description": "password label"
+    },
+    "verifyEmail":"Please verify your email to complete sign-up.",
+    "@verifyEmail":{
+      "description": "This error message indicates that you need to verify your email address to complete the sign-up process"
+    },
+    "forgotPassword":"Forgot password",
+    "@forgotPassword":{
+      "description": "Clicking the 'Forgot Password' button will open a dialog box where you can enter the email address associated with your account. We will send a password reset link to that email, which you can use to create a new password and regain access to your account."
+    },
+    "emailRecovery":"Password reset email sent. Please check your inbox.",
+    "@emailRecovery":{
+      "description": "This message indicates that a password reset email has been sent to the email address you provided. Please check your inbox for the email and follow the instructions to reset your password. If you do not see the email in your inbox, please check your spam or junk folder."
+    },
+    "googleSignInError":"Error in Google Log in",
+    "@googleSignInError":{
+      "description": "Error message in google log in"
+    },
+    "signInError": "Sign-in failed. Please try again later.",
+    "@signInError":{
+      "description": "This error message indicates that there was a problem with the sign-in process, but the specific cause of the error is unknown"
+    },
+    "networkRequestFailed": "No internet connection. Please try again later.",
+    "@networkRequestFailed":{
+      "description":"This error message is displayed when the user attempts to sign in, but the sign-in process fails due to a lack of internet connection."
+    },
+    "emailAlreadyInUse": "Email address already in use. Please try a different email.",
+    "@emailAlreadyInUse": {
+      "description": "Error message displayed when a user attempts to sign up with an email address that is already associated with an existing account."
+    },
+    "invalidEmail": "Invalid email address. Please enter a valid email.",
+    "@invalidEmail": {
+      "description": "Error message displayed when a user attempts to sign up or recover Password, or sing in with an invalid email address."
+    },
+    
+    "weakPassword": "Password is too weak",
+    "@weakPassword": {
+      "description": "Error message displayed when a user attempts to sign up with a weak password."
+    },
+    
+    "signUpError": "Sign-up failed. Please try again later.",
+    "@signUpError": {
+      "description": "Error message displayed when a generic sign-up error occurs."
+    },
+    
+    "googleSignUpError": "Google sign-up failed. Please try again later.",
+    "@googleSignUpError": {
+      "description": "Error message displayed when an error occurs during Google sign-up."
+    },
+
+    "wrongPassword": "Incorrect password. Please try again.",
+    "@wrongPassword": {
+      "description": "Error message displayed when a user enters an incorrect password during login."
+    },
+    "january": "Jan",
+    "@January": {
+      "description": "short way to represent January"
+    },
+    "february": "Feb",
+    "@February": {
+      "description": "short way to represent February"
+    },
+    "march": "Mar",
+    "@March": {
+      "description": "short way to represent March"
+    },
+    "april": "Apr",
+    "@April": {
+      "description": "short way to represent April"
+    },
+    "may": "May",
+    "@May": {
+      "description": "short way to represent May"
+    },
+    "june": "Jun",
+    "@June": {
+      "description": "short way to represent June"
+    },
+    "july": "Jul",
+    "@July": {
+      "description": "short way to represent July"
+    },
+    "august": "Aug",
+    "@August": {
+      "description": "short way to represent August"
+    },
+    "september": "Sep",
+    "@September": {
+      "description": "short way to represent September"
+    },
+    "october": "Oct",
+    "@October": {
+      "description": "short way to represent October"
+    },
+    "november": "Nov",
+    "@November": {
+      "description": "short way to represent November"
+    },
+    "december": "Dec",
+    "@December": {
+      "description": "short way to represent December"
+    },
+
+    "monday": "MON",
+    "@Monday": {
+      "description": "short way to represent Monday"
+    },
+    "tuesday": "TUE",
+    "@Tuesday": {
+      "description": "short way to represent Tuesday"
+    },
+    "wednesday": "WED",
+    "@Wednesday": {
+      "description": "short way to represent Wednesday"
+    },
+    "thursday": "THU",
+    "@Thursday": {
+      "description": "short way to represent Thursday"
+    },
+    "friday": "FRI",
+    "@Friday": {
+      "description": "short way to represent Friday"
+    },
+    "saturday": "SAT",
+    "@Saturday": {
+      "description": "short way to represent Saturday"
+    },
+    "sunday": "SUN",
+    "@Sunday": {
+      "description": "short way to represent Sunday"
+    },
+    "changeItem":"Change Item",
+    "@changeItem": {
+      "description": "Window Label for a dialog to change a item in a Todo List"
+    },
+
+    "addTask":"Add Task",
+    "@addTask": {
+      "description": "Window Label for a dialog to add a new Task"
+    },
+    "changeTask":"Change Task",
+    "@changeTask": {
+      "description": "Window Label for a dialog to change a  Task"
+    },
+    "deleteTask":"Delete task",
+    "@deleteTask": {
+      "description": " Label for a button to delete a  Task"
+    },
+    "notes":"Notes\n(optional)",
+    "@notes": {
+      "description": " Label for a TextField to add notes"
+    },
+
+    "deleteConfirmation": "Are you sure you want to delete this {item}?",
+    "@deleteConfirmation": {
+      "description": "A confirmation message for deleting an item.",
+      "placeholders": {
+        "este_or_esta": {
+          "type": "String"
+        },
+        "item": {
+          "type": "String"
+        }
+      }
+    },
+    "tutorial":"Youtube tutorial",
+    "@tutorial":{
+      "description":"A link for a youtube tutorial"
+      
+    },
+    "relatedTask":"Create task...",
+    "relatedList": "Copy to lists...",
+    "noTodoListError": "There's no todo lists!",
+    "finishTask": "Task completed",
+    "@finishTask":{
+      "description": "A label for a button to mark a task as complete"
+    },
+    "unfinishTask": "Reopen Task",
+    "@unfinishTask":{
+      "description": "A label for a button to mark a completed task as uncompleted"
+    },
+
+
+    "repeatEvery":"Repeat every",
+    "@repeatEvery":{
+      "description": "Label for a dropdown Menu to choose what kind the repetition the task has"
+    },
+    "item":"item",
+    "@item": {
+      "description": "Helper for another phrase"
+    },
+    "folder":"folder",
+    "@folder": {
+      "description": "Helper for another phrase"
+    },
+    "list":"list",
+    "@list": {
+      "description": "Helper for another phrase"
+    },
+    "project":"project",
+    "@project": {
+      "description": "Helper for another phrase"
+    },
+    "task":"task",
+    "@task": {
+      "description": "Helper for another phrase"
+    },
+    "changeTask":"Change Task",
+    "@changeTask": {
+      "description": "Window Label for a dialog to change a Task"
+    },
+
+    "userDisabled": "Your account is disabled. Please contact support.",
+    "@userDisabled": {
+      "description": "Error message displayed when a user's account is disabled during login."
+    },
+    
+    "userNotFound": "User not found. Please check your email.",
+    "@userNotFound": {
+      "description": "Error message displayed when a user is not found during login or password reset."
+    },
+    
+    "invalidCredenditals": "Email or password is invalid.",
+    "@invalidCredenditals": {
+      "description": "Erron on sign in"
+    },
+    
+    "sundayInOneLetter": "S",
+    "@sundayInOneLetter": {
+      "description": "Sunday in one letter"
+    },
+    "mondayInOneLetter": "M",
+    "@mondayInOneLetter": {
+      "description": "Monday in one letter"
+    },
+    "tuesdayInOneLetter": "T",
+    "@tuesdayInOneLetter": {
+      "description": "Tuesday in one letter"
+    },
+    "wednesdayInOneLetter": "W",
+    "@wednesdayInOneLetter": {
+      "description": "Wednesday in one letter"
+    },
+    "thursdayInOneLetter": "T",
+    "@thursdayInOneLetter": {
+      "description": "Thursday in one letter"
+    },
+    "fridayInOneLetter": "F",
+    "@fridayInOneLetter": {
+      "description": "Friday in one letter"
+    },
+    "saturdayInOneLetter": "S",
+    "@saturdayInOneLetter": {
+      "description": "Saturday in one letter"
+    },
+
+    "day":"day",
+    "@day":{
+      "description":"one type of repetition for a task"
+    },
+    "week":"week",
+    "@week":{
+      "description":"one type of repetition for a task"
+    },
+    "month":"month",
+    "@month":{
+      "description":"one type of repetition for a task"
+    },
+    "year":"year",
+    "@year":{
+      "description":"one type of repetition for a task"
+    },
+    "dateTasK": "Date task",
+    "@dateTasK":{
+      "description":"label asking the first day of a task"
+    },
+    "repeat":"Repeat?",
+    "@repeat":{
+      "description": "Label asking if the task has repetition"
+    },
+
+    "noRepeat":"No repeat",
+    "@noRepeat":{
+      "description": "Label for a task with no repetition"
+    },
+    "errStartAfterEnd": "Start time after end time",
+    "@errStartAfterEnd": {
+      "description": "Error when start time is later than end time"
+    },
+    "startTime": "Start Time",
+    "@startTime": {
+      "description": "Label for indicating the starting time of a task"
+    },
+    "endTime": "End Time",
+    "@endTime": {
+      "description": "Label for indicating the ending time of a task"
+    },
+    "flexibleStartTime": "Flexible start time",
+    "@flexibleStartTime": {
+      "description": "Label for indicating a start time that can be adjusted or is not fixed"
+    },
+
+    "fixedStartTime": "Fixed Start Time",
+    "@fixedStartTime": {
+      "description": "Label for indicating a start time that is set and cannot be changed"
+    },
+
+    "emailError": "Your email is not valid",
+    "@emailError": {
+      "description": "Error message displayed on TextField when the entered email is not valid"
+    },
+
+    "passwordError": "Your password must be at least 8 characters long.",
+    "@passwordError": {
+      "description": "Error message displayed when the entered password is less than 8 characters"
+    },
+    "notes":"Notes",
+    "@notes":{
+      "@description":"Label to add notes to a element,task or todo list item"
+    },
+    "appName": "LifeFlow Organizer",
+    "@appName": {
+      "description": "App name"
+    },
+    "validRepetitionError": "Please, insert a valid repetition value",
+    "@validRepetitionError": {
+      "description": "Error message displayed when an invalid repetition value is entered"
+    },
+
+    "selectDayError": "Please, select at least one day of the week for the task to repeat.",
+    "@selectDayError": {
+      "description": "Error message displayed when no day of the week is selected for task repetition"
+    },
+
+    "typeNameForTaskError": "Please, type a name for the task",
+    "@typeNameForTaskError": {
+      "description": "Error message displayed when the user has not entered a name for the task"
+    },
+    
+    "everDay":"Every day",
+    "@everDay":{
+      "description":"one type of repetition for a task"
+    },
+
+    "everWeek":"Every week",
+    "@everWeek":{
+      "description":"one type of repetition for a task"
+    },
+
+    "everMonth":"Every month",
+    "@everMonth":{
+      "description":"one type of repetition for a task"
+    },
+
+    "everYear":"Every year",
+    "@everYear":{
+      "description":"one type of repetition for a task"
+    },
+    "customRepeat":"Custom repeat",
+    "@customRepeat":{
+      "description":"one type of repetition for a task"
+    },
+    "chooseDate":"Choose date",
+    "@chooseDate":{
+      "description":"Label to choose a date in the planner"
+    },
+    "projects":"Projects",
+    "@projects":{
+      "description":"Label for one app screen"
+    },
+    
+    "chooseTime":"Choose Time",
+    "@chooseTime":{
+      "description":"Label for choose end time task"
+    },
+
+    "logout":"Logout",
+    "@projects":{
+      "description":"Label for the logout button"
+    },
+
+    "planner":"Planner",
+    "@planner":{
+      "description":"Label for one app screen"
+    },
+    "todoList1" : "Someday/maybe",
+    "todoList2" : "Next Actions",
+    "todoList3" : "Inbox",
+
+    "unselectAll" : "Unselect All",
+    "unselectAllQuestion": "Do you want unselect all items?",
+
+    "todolists":"Todo Lists",
+    "@todolists":{
+      "description":"Label for one app screen"
+    },
+    "deleteTaskAndItems": "Also delete associated task or todo items",
+    "deleteRelatedProject": "Also delete associated project item",
+    "seeRelatedTask":"See associated task",
+    "seeRelatedTodoItem":"See associted Todo item",
+    
+    "insertTodoItem":"Insert an item...",
+    "@insertTodoItem":{
+      "description":"TextField text do say to user insert a item"
+    },
+
+    "emailRecoveryError": "Password reset failed. Please try again later.",
+    "@emailRecoveryError": {
+      "description": "Error message displayed when a generic error occurs while attempting to reset a password."
+    },
+
+    "getBackupError": "Error checking for online backup.",
+    "@getBackupError": {
+      "description": "Error message displayed when there's an issue while checking for online backup."
+    },
+    
+    "email": "Email",
+    "@email": {
+      "description": "Label for the email input field in a sign-up or login form."
+    },
+
+    "password": "Password",
+    "@password": {
+      "description": "Label for the password input field in a sign-up or login form."
+    },
+    
+    "signUpMessage1": "We've sent a verification link to your email. Please check your inbox.",
+    "@signUpMessage1": {
+      "description": "Message displayed after the user signs up, informing them that a verification link has been sent to their email."
+    },
+    
+    "signUpMessage2": "A verification email will be sent to you once you have logged in.",
+    "@signUpMessage2": {
+      "description": "Message displayed after sign-up indicating that a verification email will be sent once the user has logged in."
+    },
+    
+    "initMessage": "Initialization...",
+    "@initMessage": {
+      "description": "Message displayed during app initialization"
+    },
+
+    "saveButton": "Save",
+    "@saveButton": {
+      "description": "Label for a button that saves changes"
+    },
+
+    "cancelButton": "Cancel",
+    "@cancelButton": {
+      "description": "Label for a button that cancels changes or closes a dialog"
+    },
+    "reloadPage": "Reload Page",
+    "@reloadPage": {
+      "description": "Label for button to reload the current page."
+    },
+    "loading": "Loading...",
+    "@loading": {
+      "description": "Message displayed to indicate that the app is loading or processing data."
+    },
+    "signUpWithGoogle": "Log in with Google",
+    "@signUpWithGoogle": {
+      "description": "Label for button to sign up using a Google account."
+    },
+    "localDataError": "Error retrieving data from local storage.",
+    "@localDataError": {
+      "description": "Error message displayed when there's an issue retrieving data from the local storage."
+    },
+
+    "signUpPage": "Sign up screen",
+    "@signUpPage": {
+      "description": "Button to go for current page"
+    },
+
+    "signUpButton": "Sign up",
+    "@signUpButton": {
+      "description": "Button to sign up"
+    },
+    "sendNewPassword": "Send",
+    "@sendNewPassword": {
+      "description": "A button to send new Password"
+    },
+    "appName": "LifeFlow Organizer",
+    "@appName": {
+      "description": "App name"
+    },
+    "auxiliaryItem": "Inside of",
+    "@auxiliaryItem": {
+      "description": "Empty space for drag and drop items"
+    },
+    "dontDrag": "Don't drag, it doesn't change anything",
+    "@dontDrag": {
+      "description": "Empty space for drag and drop items"
+    },
+    "dragItem": "Drag elements",
+    "@dragItem": {
+      "description": "Checkbox to choose if list elements are draggable"
+    },
+    "close": "Close",
+    "@close": {
+      "description":"close label"
+    },
+    "youtubeError":"Could not launch",
+    "@youtubeError":{
+      "description":"Error message"
+    },
+    "error":"Error",
+    "@error":{
+      "description":"Error label"
+    },
+    "changeFolder":"Change Folder",
+    "@changeFolder":{
+      "description": "Title of a Alert dialog to change a folder"
+    },
+    "changeItem":"Change Item",
+    "@changeItem":{
+      "description": "Title of a Alert dialog to change a item"
+    },
+    "changeItemName":"Change Item name",
+    "@changeItemName":{
+      "description": "Label for a button to change item name"
+    },
+    "changeFolderName":"Change Folder name",
+    "@changeFolderName":{
+      "description": "Label for a button to change folder name"
+    },
+    "moveItem":"Move item",
+    "@moveItem":{
+      "description": "Label for a button to move a item"
+    },
+    "moveFolder":"Move folder",
+    "@moveFolder":{
+      "description": "Label for a button to move a folder"
+    },
+    "list":"List",
+    "@item":{
+      "description": "List label"
+    },
+    "folder":"Folder",
+    "@folder":{
+      "description": "Folder label"
+    },
+    "deleteItem":"Delete item",
+    "@deleteItem":{
+      "description": "Label for a button to delet a item"
+    },
+    "deleteFolder":"Delete folder",
+    "@deleteFolder":{
+      "description": "Label for a button to delet a folder"
+    },
+    "noFolder": "No folder",
+    "@noFolder": {
+      "description": "A text to indicate that a element it's not in a folder"
+    },
+    "today": "Today.",
+    "@today": {
+      "description": "greeting label to show the day"
+    },
+    "tomorrow": "Tomorrow.",
+    "@today": {
+      "description": "greeting label to show the day"
+    },
+    "yesterday": "Yesterday.",
+    "@today": {
+      "description": "greeting label to show the day"
+    }
+
+}
