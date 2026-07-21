@@ -1,6 +1,8 @@
+sudo apt-get update
 sudo apt-get install -y curl git unzip xz-utils zip libglu1-mesa
-sudo apt install openjdk-25-jdk openjdk-25-jre
+sudo apt install -y openjdk-25-jdk openjdk-25-jre
 wget https://storage.googleapis.com/flutter_infra_release/releases/stable/linux/flutter_linux_3.44.6-stable.tar.xz
+tar -xf flutter_linux_3.44.6-stable.tar.xz
 echo "export PATH=\"$PWD/flutter/bin:\$PATH\"" >> ~/.bashrc
 source ~/.bashrc
 wget https://edgedl.me.gvt1.com/android/studio/ide-zips/2026.1.2.10/android-studio-quail2-linux.tar.gz
