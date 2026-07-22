@@ -30,28 +30,41 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 nvm install 24
 npm install -g firebase-tools
+dart pub global activate flutterfire_cli
 echo 'export PATH="$PATH:$HOME/.pub-cache/bin"' >> ~/.bashrc
 source ~/.bashrc
 wget https://github.com/lucascp2004/my_gtd_manager_flutter/archive/refs/heads/main.zip
 unzip main.zip
 flutter create gtd_manager
+cd gtd_manager
+mkdir -p ~/.android
+keytool -genkeypair \
+  -v \
+  -keystore ~/.android/debug.keystore \
+  -storepass android \
+  -alias androiddebugkey \
+  -keypass android \
+  -keyalg RSA \
+  -keysize 2048 \
+  -validity 10000 \
+  -dname "CN=Android Debug,O=Android,C=US"
+cd ..
 rm -rf gtd_manager/lib/*
 mv my_gtd_manager_flutter-main/lib/* gtd_manager/lib/
-mv my_gtd_manager_flutter-main/integration-test/ gtd_manager/
-
+mv my_gtd_manager_flutter-main/integration_test/ gtd_manager/
+mv my_gtd_manager_flutter-main/assets/ gtd_manager/
 cd gtd_manager
-keytool -list -v \ #Esse é um comando de várias linhas
--keystore ~/.android/debug.keystore \ ## O comando 
--alias androiddebugkey \ ## continua ate
--storepass android \ ## a última
--keypass android #linha
+keytool -list -v \
+-keystore ~/.android/debug.keystore \
+-alias androiddebugkey \
+-storepass android \
+-keypass android
 
 Agora você deve estar vendo a chave SHA1 do aplicativo, você vai precisar dela para a parte gráfica da criação do backup.
 
-Agora vamos começar a configurar o backup, acesse [Firebase console](https://console.firebase.google.com/?hl=pt-br&fb_gclid=CjwKCAjwpefSBhBvEiwAzyEtZxulN7COt5TH5oXUajpEg354I4cAKAlsVd2QaYqtyYQSoBNGv-OT8xoCVWwQAvD_BwE&fb_utm_campaign=Cloud-SS-DR-Firebase-FY26-global-pmax-1713590&fb_utm_content=pmax&fb_utm_medium=display&fb_utm_source=PMAX) e crie um novo projeto, clique Continuar, escolha a conta padrão do firebase, clica em Continuar e clica em Continar e clica em Continuar. Vá no painel Segurança >>> Authentication. Clique em continuar, Escolha google,  ative, escolha o email de suporte, clique em salvar, depois adicione um novo fornecedor e escolha Email, escolha login com email e senha, e ative.
+Agora vamos começar a configurar o backup, acesse [Firebase console](https://console.firebase.google.com/?hl=pt-br&fb_gclid=CjwKCAjwpefSBhBvEiwAzyEtZxulN7COt5TH5oXUajpEg354I4cAKAlsVd2QaYqtyYQSoBNGv-OT8xoCVWwQAvD_BwE&fb_utm_campaign=Cloud-SS-DR-Firebase-FY26-global-pmax-1713590&fb_utm_content=pmax&fb_utm_medium=display&fb_utm_source=PMAX) e crie um novo projeto, clique Continuar,clique Continuar, escolha a conta padrão do firebase, clica em Criar projeto, clica Continuar. Vá no painel Segurança >>> Authentication. Clique em Vamos começar, Escolha google,  ative, escolha o email de suporte, clique em salvar, depois adicione um novo fornecedor e escolha Email, escolha login com email e senha, ative e click em salvar.
 
-agora abra o terminal faça cd <pasta_que_vc_criou> 
-cd gtd_manager
+se tiver fechao o terminal, agora abra o terminal faça cd <pasta_que_vc_criou>/gtd_manager
 firebase login
 flutterfire configure
 
@@ -62,11 +75,30 @@ clique em gtd_manager, clique na engrenagem, clique adicionar impressão digital
 
 Agora abra o google_services.json e na parte
  {
-          "client_id": "12345678-abcdefghijklmnop.apps.googleusercontent.com",
+          "client_id": "some-site.apps.googleusercontent.com",
           "client_type": 3
         } 
-copie o site com as aspas. "12345678-abcdefghijklmnop.apps.googleusercontent.com" e edite o arquivo 
-
-
+copie o site entre aspas. some-site.apps.googleusercontent.com e cole no arquivo 
+<pasta_que_vc_criou>/gtd_manager/lib/firebase_options.dart
+mude
+static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'um apiKey',
+    appId: 'um appId',
+    messagingSenderId: 'um sommessagingSenderId',
+    projectId: 'um projectId',
+    storageBucket: 'um storageBucket',
+  );
+para
+static const FirebaseOptions android = FirebaseOptions(
+    apiKey: 'um apiKey',
+    appId: 'um appId',
+    messagingSenderId: 'um sommessagingSenderId',
+    projectId: 'um projectId',
+    storageBucket: 'um storageBucket',
+    authDomain:'some-site.apps.googleusercontent.com',
+  );
+volte para o terminal
+flutter pub get
+flutter build apk
 
 
